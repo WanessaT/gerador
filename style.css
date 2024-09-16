@@ -1,0 +1,78 @@
+
+* {
+    font-family: sans-serif;
+    width: 100%;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #2c032c;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.logo {
+    max-width: 600px;
+    margin-bottom: 24px;
+}
+
+.container-input {
+    max-width: 480px;
+    margin: 14px 0;
+}
+
+.container-input span {
+    color: #FFF;
+    font-size: 22px;
+}
+
+.slider {
+    appearance: none;
+    width: 100%;
+    border-radius: 5px;
+    background-color: #DFDFDF;
+    height: 18px;
+    outline: none;
+    margin: 8px 0;
+}
+
+.button-generate {
+    height: 35px;
+    background-color: #0c7621;
+    border: 0;
+    border-radius: 3px;
+    cursor: pointer;
+    color: #FFF;
+    font-weight: bold;
+    font-size: 18px;
+    text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.463)
+}
+
+.container-password {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    max-width: 480px;
+    margin: 5px 0;
+    color: #FFF;
+    cursor: pointer;
+}
+
+.title-pass {
+    font-size: 20px;
+}
+
+.copy-pass {
+    background-color: #dfdfdf0b;
+    border-radius: 2px;
+    padding: 5px;
+    font-size: 14px
+    /* display: none; */;
+}
